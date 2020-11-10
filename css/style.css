@@ -417,7 +417,7 @@ li>a:only-child:after {
 }
 
 .banner-top {
-    background: url(../images/header-background.jpg) no-repeat center;
+    background: url(../images/awal-background.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -426,7 +426,7 @@ li>a:only-child:after {
 }
 
 .banner-top1 {
-    background: url(../images/header-background.jpg) no-repeat center;
+    background: url(../images/beach-slider2.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -435,7 +435,7 @@ li>a:only-child:after {
 }
 
 .banner-top2 {
-    background: url(../images/header-background.jpg) no-repeat 0px 0px;
+    background: url(../images/angel-bilabong.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -444,7 +444,7 @@ li>a:only-child:after {
 }
 
 .banner-top3 {
-    background: url(../images/header-background.jpg) no-repeat center;
+    background: url(../images/slider4.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -664,7 +664,7 @@ h5.bottom {
 }
 
 .bg-image-bottom2 {
-    background: url(../images/banner4.jpg) no-repeat center;
+    background: url(../images/) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1387,7 +1387,7 @@ a.move-top {
 }
 
 .stats {
-    background: url(../images/header-background.jpg) center;
+    background: url(../images/yearsof-thefield.jpg) center;
     background-size: cover;
     position: relative;
 }
