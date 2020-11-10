@@ -1,0 +1,12 @@
+#pelajaran1 {
+    color: red;
+}
+
+#pelajaran2 {
+    color: cyan;
+}
+
+.font-italic {
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
