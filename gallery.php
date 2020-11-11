@@ -43,16 +43,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<!-- nav -->
 		<nav class="py-md-4 py-3 d-lg-flex">
 			<div id="logo">
-				<h1> <a href="index.html">Commute</a></h1>
+				<h1> <a href="index.php">Commute</a></h1>
 			</div>
 			<label for="drop" class="toggle"><span class="fa fa-bars"></span></label>
 			<input type="checkbox" id="drop" />
 			<ul class="menu mt-lg-3 ml-auto">
-				<li class=""><a href="index.html">Home</a></li>
-				<li class=""><a href="about.html">About Us</a></li>
-				<li class=""><a href="services.html">Services</a></li>
-				<li class="active"><a href="gallery.html">Gallery</a></li>
-				<li class="mr-2"><a href="contact.html">Contact</a></li>
+				<li class=""><a href="index.php">Home</a></li>
+				<li class=""><a href="about.php">About Us</a></li>
+				<li class=""><a href="services.php">Services</a></li>
+				<li class="active"><a href="gallery.php">Gallery</a></li>
+				<li class="mr-2"><a href="contact.php">Contact</a></li>
 				<li class=""><span><span class="fa fa-phone"></span> +12 34 3456 7890</span></li>
 			</ul>
 		</nav>
@@ -76,7 +76,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="container">
 		<ol class="breadcrumb">
 			<li class="breadcrumb-item">
-				<a href="index.html">Home</a>
+				<a href="index.php">Home</a>
 			</li>
 			<li class="breadcrumb-item active" aria-current="page">Our Gallery</li>
 		</ol>
@@ -249,22 +249,22 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</ul>
 					<ul class="footer-link mt-3">
 						<li>
-							<a href="index.html">Home</a>
+							<a href="index.php">Home</a>
 						</li>
 						<li>
-							<a href="about.html">About Us</a>
+							<a href="about.php">About Us</a>
 						</li>
 						<li>
-							<a href="services.html">Services</a>
+							<a href="services.php">Services</a>
 						</li>
 						<li>
-							<a href="gallery.html">Gallery</a>
+							<a href="gallery.php">Gallery</a>
 						</li>
 						<li>
 							<a href="#Subscribe">Subscribe</a>
 						</li>
 						<li>
-							<a href="contact.html">Contact</a>
+							<a href="contact.php">Contact</a>
 						</li>
 					</ul>
 				</div>
