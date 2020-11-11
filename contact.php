@@ -37,29 +37,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </head>
 <body>
 
-<!-- header -->
-<header>
-	<div class="container">
-		<!-- nav -->
-		<nav class="py-md-4 py-3 d-lg-flex">
-			<div id="logo">
-				<h1> <a href="index.php"> Commute</a></h1>
-			</div>
-			<label for="drop" class="toggle"><span class="fa fa-bars"></span></label>
-			<input type="checkbox" id="drop" />
-			<ul class="menu mt-lg-3 ml-auto">
-				<li class=""><a href="index.php">Home</a></li>
-				<li class=""><a href="about.php">About Us</a></li>
-				<li class=""><a href="services.php">Services</a></li>
-				<li class=""><a href="gallery.php">Gallery</a></li>
-				<li class="active mr-2"><a href="contact.php">Contact</a></li>
-				<li class=""><span><span class="fa fa-phone"></span> +12 34 3456 7890</span></li>
-			</ul>
-		</nav>
-		<!-- //nav -->
-	</div>
-</header>
-<!-- //header -->
+<?php include'header.php'; ?>
 
 <!-- banner -->
 <div class="inner-banner" id="home">
@@ -149,78 +127,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- //newsletter-->
 
 
-<!-- footer -->
-<footer class="footerv4-w3ls py-sm-5 py-4">
-	<div class="footerv4-top">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4 footer-left">
-					<h3>Get In Touch with us</h3>
-				</div>
-				<!-- footer nav links -->
-				<div class="col-md-8 footer-nav-wthree my-md-3 mt-3">
-					<ul class="social-icons list-unstyled">
-						<li>
-							<a href="#">
-								<span class="fa fa-facebook"></span>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<span class="fa fa-twitter"></span>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<span class="fa fa-google-plus"></span>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<span class="fa fa-instagram"></span>
-							</a>
-						</li>
-					</ul>
-					<ul class="footer-link mt-3">
-						<li>
-							<a href="index.php">Home</a>
-						</li>
-						<li>
-							<a href="about.php">About Us</a>
-						</li>
-						<li>
-							<a href="services.php">Services</a>
-						</li>
-						<li>
-							<a href="gallery.php">Gallery</a>
-						</li>
-						<li>
-							<a href="#Subscribe">Subscribe</a>
-						</li>
-						<li>
-							<a href="contact.php">Contact</a>
-						</li>
-					</ul>
-				</div>
-				<!-- //footer nav links -->
-			
-			</div>
-		</div>
-	</div>
-</footer>
-<!-- //footer -->
-
-<!-- copyright -->
-<div class="copy-right text-center">
-	<p>© 2019 Commute. All rights reserved | Design by
-		<a href="http://w3layouts.com"> W3layouts.</a>
-	</p>
-</div>
-<!-- //copyright -->
-
-<!-- move top icon -->
-<a href="#home" class="move-top text-center"></a>
-<!-- //move top icon -->
+<?php include'footer.php'; ?>
 	
 </body>
 </html>
