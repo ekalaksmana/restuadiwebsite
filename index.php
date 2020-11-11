@@ -33,6 +33,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </head>
 <body>
 
+<<<<<<< HEAD:index.php
 <!-- header -->
 <header>
 	<div class="container">
@@ -55,6 +56,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 </header>
 <!-- //header -->
+=======
+<?php include'header.php'; ?>
+>>>>>>> 0e1ea80b7edac62e005728e5a9dac4a4d4d6ddd8:index.html
 
 <!-- banner -->
 <section class="banner_w3lspvt" id="home">
@@ -285,6 +289,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- //newsletter -->
 
 
+<<<<<<< HEAD:index.php
 <!-- footer -->
 <footer class="footerv4-w3ls py-sm-5 py-4">
 	<div class="footerv4-top">
@@ -359,6 +364,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- move top icon -->
 <a href="#home" class="move-top text-center"></a>
 <!-- //move top icon -->
+=======
+<?php include'footer.php'; ?>
+>>>>>>> 0e1ea80b7edac62e005728e5a9dac4a4d4d6ddd8:index.html
 	
 </body>
 </html>

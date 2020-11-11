@@ -233,6 +233,9 @@ li>a:only-child:after {
     content: '';
 }
 
+.bottom-gd.fea {
+    min-height: 19rem;
+}
 
 /* Media Queries
 --------------------------------------------- */
