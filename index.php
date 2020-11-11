@@ -33,32 +33,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </head>
 <body>
 
-<<<<<<< HEAD:index.php
-<!-- header -->
-<header>
-	<div class="container">
-		<!-- nav -->
-		<nav class="py-md-4 py-3 d-lg-flex">
-			<div id="logo">
-				<h1> <a href="index.php"><img width="50%" src="images/logo-white.png"></a></h1>
-			</div>
-			<label for="drop" class="toggle"><span class="fa fa-bars"></span></label>
-			<input type="checkbox" id="drop" />
-			<ul class="menu mt-lg-3 ml-auto">
-				<li class="active"><a href="index.php">Home</a></li>
-				<li class=""><a href="about.php">About Us</a></li>
-				<li class=""><a href="services.php">Tour Packages</a></li>
-				<li class=""><a href="gallery.php">Reservation</a></li>
-				<li class="mr-2"><a href="contact.php">Contact</a></li>
-			</ul>
-		</nav>
-		<!-- //nav -->
-	</div>
-</header>
-<!-- //header -->
-=======
+
 <?php include'header.php'; ?>
->>>>>>> 0e1ea80b7edac62e005728e5a9dac4a4d4d6ddd8:index.html
 
 <!-- banner -->
 <section class="banner_w3lspvt" id="home">
@@ -213,7 +189,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <!-- //stats -->
 
 
- <!-- testimonials -->
+<!-- testimonials -->
     <section class="testimonials py-5" id="testi">
         <div class="container py-xl-5 py-lg-3">
             <h3 class="heading text-center mb-lg-5 mb-3">what people are saying</h3>
@@ -254,16 +230,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     </section>
     <!-- //testimonials -->
 <!--we are ready -->
-  <section class="banner-image-two py-lg-4 py-md-3 py-sm-3 py-3 text-center">
+<section class="banner-image-two py-lg-4 py-md-3 py-sm-3 py-3 text-center">
     <div class="container py-lg-5 py-md-4 py-sm-4 py-3">
-      <h2>We Are Ready To Work With You</h2>
-      <p class="mt-lg-5 mt-3">sed do eiusmod tempor incididunt ut Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, eiusmod tempor incididunt
+		<h2>We Are Ready To Work With You</h2>
+		<p class="mt-lg-5 mt-3">sed do eiusmod tempor incididunt ut Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, eiusmod tempor incididunt
         ut labore et consectetur adipiscing sed do eiusmod tempor incididunt ut Lorem ipsum dolor sit amet Lorem ipsum</p>
-      <div class="view-buttn mt-md-4 mt-sm-4 mt-3">
-        <a href="contact.php" class="btn">Contact Us</a>
-      </div>
+
+		<div class="view-buttn mt-md-4 mt-sm-4 mt-3">
+			<a href="contact.php" class="btn">Contact Us</a>
+		</div>
     </div>
-  </section>
+</section>
   <!--we are ready-->
 
 <!-- newsletter -->
@@ -288,85 +265,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </section> -->
 <!-- //newsletter -->
 
-
-<<<<<<< HEAD:index.php
 <!-- footer -->
-<footer class="footerv4-w3ls py-sm-5 py-4">
-	<div class="footerv4-top">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4 footer-left">
-					<h3>Get In Touch with us</h3>
-				</div>
-				<!-- footer nav links -->
-				<div class="col-md-8 footer-nav-wthree my-md-3 mt-3">
-					<ul class="social-icons list-unstyled">
-						<li>
-							<a href="#">
-								<span class="fa fa-facebook"></span>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<span class="fa fa-twitter"></span>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<span class="fa fa-google-plus"></span>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<span class="fa fa-instagram"></span>
-							</a>
-						</li>
-					</ul>
-					<ul class="footer-link mt-3">
-						<li>
-							<a href="index.php">Home</a>
-						</li>
-						<li>
-							<a href="about.php">About Us</a>
-						</li>
-						<li>
-							<a href="services.php">Services</a>
-						</li>
-						<li>
-							<a href="gallery.php">Gallery</a>
-						</li>
-						<li>
-							<a href="#Subscribe">Subscribe</a>
-						</li>
-						<li>
-							<a href="contact.php">Contact</a>
-						</li>
-					</ul>
-				</div>
-				<!-- //footer nav links -->
-			
-			</div>
-		</div>
-	</div>
-</footer>
-<!-- //footer -->
-
-<!-- copyright -->
-<div class="copy-right text-center">
-	<p>Copyright @ 2015 - 2020 | Design by Restu Bali Travel 
-		<!-- <a href="http://w3layouts.com"> W3layouts.</a> -->
-	</p>
-</div>
-<!-- //copyright -->
-
-
-
-<!-- move top icon -->
-<a href="#home" class="move-top text-center"></a>
-<!-- //move top icon -->
-=======
 <?php include'footer.php'; ?>
->>>>>>> 0e1ea80b7edac62e005728e5a9dac4a4d4d6ddd8:index.html
 	
 </body>
 </html>

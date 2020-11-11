@@ -58,9 +58,7 @@
 
 <!-- copyright -->
 <div class="copy-right text-center">
-	<p>Copyright @ 2015 - 2020 | Design by Restu Bali Travel 
-		<!-- <a href="http://w3layouts.com"> W3layouts.</a> -->
-	</p>
+	<p>Copyright @ 2015 - 2020 | Design by Intan Larasati</p>
 </div>
 <!-- //copyright -->
 

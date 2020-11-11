@@ -1,13 +1,7 @@
-<!--
-author: W3layouts
-author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Commute Travel Category Flat Bootstrap Responsive Web Template | Services Page :: w3layouts</title>
+<title>Tour Package</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="utf-8">
 <meta name="keywords" content="Commute Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
@@ -37,33 +31,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </head>
 <body>
 
-<<<<<<< HEAD:services.php
-<!-- header -->
-<header>
-	<div class="container">
-		<!-- nav -->
-		<nav class="py-md-4 py-3 d-lg-flex">
-			<div id="logo">
-				<h1> <a href="index.php"> Commute</a></h1>
-			</div>
-			<label for="drop" class="toggle"><span class="fa fa-bars"></span></label>
-			<input type="checkbox" id="drop" />
-			<ul class="menu mt-lg-3 ml-auto">
-				<li class=""><a href="index.php">Home</a></li>
-				<li class=""><a href="about.php">About Us</a></li>
-				<li class="active"><a href="services.php">Services</a></li>
-				<li class=""><a href="gallery.php">Gallery</a></li>
-				<li class="mr-2"><a href="contact.php">Contact</a></li>
-				<li class=""><span><span class="fa fa-phone"></span> +12 34 3456 7890</span></li>
-			</ul>
-		</nav>
-		<!-- //nav -->
-	</div>
-</header>
-<!-- //header -->
-=======
 <?php include'header.php'; ?>
->>>>>>> 0e1ea80b7edac62e005728e5a9dac4a4d4d6ddd8:tour.php
 
 <!-- banner -->
 <div class="inner-banner" id="home">
@@ -82,7 +50,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<li class="breadcrumb-item">
 				<a href="index.php">Home</a>
 			</li>
-			<li class="breadcrumb-item active" aria-current="page">Our Services</li>
+			<li class="breadcrumb-item active" aria-current="page">Tour Package</li>
 		</ol>
 	</div>
 </div>
@@ -94,48 +62,48 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="row service-grid-grids text-center">
 			<div class="col-lg-4 col-md-6 service-grid service-grid1">
 				<div class="service-icon">
-					<span class="fa fa-puzzle-piece"></span>
+					<!-- <span class="fa fa-puzzle-piece"></span> -->
+					<img src="images/daily-transfer-icon.png" class="image-responsive" alt="">
 				</div>
-				<h4 class="mt-3">Natus Doloret</h4>
-				<p class="mt-3">Perspiciatis unde omnis iste natus doloret ipsum volupte ut accusal ntium dolor remque laudantium, totam dolor.</p>
+				<h4 class="mt-3">Daily Transfer</h4>
+				<p class="mt-3">Berangkat tanpa perlu lagi memikirkan perjalanan pulang. Langsung dengan sekali bayar.</p>
 			</div>
 			<div class="col-lg-4 col-md-6 service-grid service-grid2 mt-md-0 mt-5">
 				<div class="service-icon">
-					<span class="fa fa-cogs"></span>
+					<!-- <span class="fa fa-cogs"></span> -->
+					<img id="charter-icon" src="images/charter-boat-icon.png" class="image-responsive" alt="">
 				</div>
-				<h4 class="mt-3">Natus Doloret</h4>
-				<p class="mt-3">Perspiciatis unde omnis iste natus doloret ipsum volupte ut accusal ntium dolor remque laudantium, totam dolor.</p>
+				<h4 class="mt-3">Charter Boat</h4>
+				<p class="mt-3">Pergi semaunya dan pulang semaunya, tentukan jadwal sendiri kapan berangkat dan kapan pulang.</p>
 			</div>
 			
 			<div class="col-lg-4 col-md-6 service-grid service-grid3 mt-lg-0 mt-5">
 				<div class="service-icon">
-					<span class="fa fa-sliders"></span>
+					<!-- <span class="fa fa-sliders"></span> -->
+					<img src="images/tour-package-icon.png" class="image-responsive" alt="">
 				</div>
-				<h4 class="mt-3">Natus Doloret</h4>
-				<p class="mt-3">Perspiciatis unde omnis iste natus doloret ipsum volupte ut accusal ntium dolor remque laudantium, totam dolor.</p>
+				<h4 class="mt-3">Tour Package</h4>
+				<p class="mt-3">Tidak mau ribet dan langsung sepaket saja dan terjadwalkan dengan aktifitas tour yang mengasyikan.</p>
 			</div>
 		</div>
 		<div class="row mt-5">
 			<div class="col-md-6 p-md-0">
 				<div class="bg-image-left">	
-					<h4>Tours & Travels</h4>
+					<h4>Tour Package I</h4>
 				</div>
 			</div>
+
 			<div class="col-md-6 p-md-0">
 				<div class="bg-image-right">
-					<h4>Tours & Travels</h4>
+					<h4>Tour Package II</h4>
 				</div>
 				<div class="row">
-					<div class="col-md-6 pr-md-0">
+					<div class="col-md-12 pr-md-12">
 						<div class="bg-image-bottom1">
-							<h4>Tours</h4>
+							<h4>Tour Package III</h4>
 						</div>
 					</div>
-					<div class="col-md-6 pl-md-0">
-						<div class="bg-image-bottom2">
-							<h4>Travels</h4>
-						</div>
-					</div>
+					
 				</div>	
 			</div>	
 		</div>		
@@ -148,8 +116,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <div class="container py-lg-5 py-md-3">
             <div class="row stat-grids">
                 <div class="col-lg-6 stats-left">
-                    <h3 class="heading mb-4 text-li">Years in the field</h3>
-                    <p class="mb-3">Integer pulvinar leo id viverra feugiat. Pellentesque libero justo, semper at tempus vel, ultrices in ligula. Nulla sollicit sed.</p>
+                    <h3 class="heading mb-4 text-li">Jam kerja lapangan</h3>
+                    <p class="mb-3">Restu Bali Travel sudah berpengalaman dan memiliki banyak customers yang berlangganan.</p>
                     <h4><span>20+</span> Years of Experience</h4>
                 </div>
                 <div class="col-lg-6 grid1 stats-right mt-lg-0 mt-4 pl-5">
@@ -167,7 +135,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <div class="col-sm-4 col-6 mt-sm-0 mt-5">
                             <p>Total Tours</p>
                             <h4>25k</h4>
-                            <span class="fa fa-files-o mr-2"></span>
+                            <span class="fa fa-clock-o mr-2"></span>
                         </div>
                     </div>
                 </div>
@@ -176,105 +144,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     </section>
     <!-- //stats -->
 
-<!-- newsletter -->
-<section class="subscribe-main py-5" id="subscribe">
-	<div class="container py-md-4">
-	<h3 class="heading text-center mb-5">Newsletter</h3>
-		<div class="row pt-lg-5">
-			<div class="col-lg-6">
-			<div class="heading-grid mb-0">
-				
-				<h4>Duis nisi sapien, elementum finibus fermentum eget, aliquet a leo.</h4>
-			</div>
-			</div>
-			<div class="col-lg-6 newsletter-info mt-4">
-				<form action="#" method="post" class="d-flex">
-					<input type="email" name="email" placeholder="Enter your Email..." required="">
-					<button type="submit" class="btn">Subscribe</button>
-				</form>
-			</div>
-		</div>
-	</div>
-</section>
-<!-- //newsletter-->
+
 
 <?php include'footer.php'; ?>
 
-<<<<<<< HEAD:services.php
-<!-- footer -->
-<footer class="footerv4-w3ls py-sm-5 py-4">
-	<div class="footerv4-top">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4 footer-left">
-					<h3>Get In Touch with us</h3>
-				</div>
-				<!-- footer nav links -->
-				<div class="col-md-8 footer-nav-wthree my-md-3 mt-3">
-					<ul class="social-icons list-unstyled">
-						<li>
-							<a href="#">
-								<span class="fa fa-facebook"></span>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<span class="fa fa-twitter"></span>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<span class="fa fa-google-plus"></span>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<span class="fa fa-instagram"></span>
-							</a>
-						</li>
-					</ul>
-					<ul class="footer-link mt-3">
-						<li>
-							<a href="index.php">Home</a>
-						</li>
-						<li>
-							<a href="about.php">About Us</a>
-						</li>
-						<li>
-							<a href="services.php">Services</a>
-						</li>
-						<li>
-							<a href="gallery.php">Gallery</a>
-						</li>
-						<li>
-							<a href="#Subscribe">Subscribe</a>
-						</li>
-						<li>
-							<a href="contact.php">Contact</a>
-						</li>
-					</ul>
-				</div>
-				<!-- //footer nav links -->
-			
-			</div>
-		</div>
-	</div>
-</footer>
-<!-- //footer -->
-
-<!-- copyright -->
-<div class="copy-right text-center">
-	<p>© 2019 Commute. All rights reserved | Design by
-		<a href="http://w3layouts.com"> W3layouts.</a>
-	</p>
-</div>
-<!-- //copyright -->
-
-<!-- move top icon -->
-<a href="#home" class="move-top text-center"></a>
-<!-- //move top icon -->
-	
-=======
->>>>>>> 0e1ea80b7edac62e005728e5a9dac4a4d4d6ddd8:tour.php
 </body>
 </html>

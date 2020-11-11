@@ -634,8 +634,8 @@ h5.bottom {
 }
 
 .bg-image-left {
-    background: url(../images/4.jpg) no-repeat center;
-    background-size: cover;
+    background: url(../images/what-we-do.jpg) no-repeat center;
+    background-size: cover !important;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -645,7 +645,7 @@ h5.bottom {
 }
 
 .bg-image-right {
-    background: url(../images/banner3.jpg) no-repeat center;
+    background: url(../images/tour-packege-2.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -656,7 +656,7 @@ h5.bottom {
 }
 
 .bg-image-bottom1 {
-    background: url(../images/3.jpg) no-repeat center;
+    background: url(../images/tour-package-3.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -715,6 +715,10 @@ h5.bottom {
 
 
 /*-- services --*/
+
+#charter-icon {
+    margin-top: -22px;
+}
 
 .service-icon span.fa {
     font-size: 40px;
@@ -1390,9 +1394,11 @@ a.move-top {
 }
 
 .stats {
-    background: url(../images/yearsof-thefield.jpg) center;
+    background: url(../images/total-visitor-bg.jpg) rgba(0, 0, 0, 0.5);
+    center;
     background-size: cover;
     position: relative;
+    background-blend-mode: multiply;
 }
 
 .brands a span.fa {
@@ -1598,6 +1604,7 @@ ul.social-icons li a span {
 }
 
 /*-- //footer --*/
+
 /*-- Responsive design --*/
 
 @media(max-width:1366px) {
