@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Commute Travel Category Flat Bootstrap Responsive Web Template | About Page :: w3layouts</title>
+<title>Commute Travel Category Flat Bootstrap Responsive Web Template | Services Page :: w3layouts</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="utf-8">
 <meta name="keywords" content="Commute Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
@@ -43,16 +43,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<!-- nav -->
 		<nav class="py-md-4 py-3 d-lg-flex">
 			<div id="logo">
-				<h1> <a href="index.html"> Commute</a></h1>
+				<h1> <a href="index.php"> Commute</a></h1>
 			</div>
 			<label for="drop" class="toggle"><span class="fa fa-bars"></span></label>
 			<input type="checkbox" id="drop" />
 			<ul class="menu mt-lg-3 ml-auto">
-				<li class=""><a href="index.html">Home</a></li>
-				<li class="active"><a href="about.html">About Us</a></li>
-				<li class=""><a href="services.html">Services</a></li>
-				<li class=""><a href="gallery.html">Gallery</a></li>
-				<li class="mr-2"><a href="contact.html">Contact</a></li>
+				<li class=""><a href="index.php">Home</a></li>
+				<li class=""><a href="about.php">About Us</a></li>
+				<li class="active"><a href="services.php">Services</a></li>
+				<li class=""><a href="gallery.php">Gallery</a></li>
+				<li class="mr-2"><a href="contact.php">Contact</a></li>
 				<li class=""><span><span class="fa fa-phone"></span> +12 34 3456 7890</span></li>
 			</ul>
 		</nav>
@@ -76,114 +76,101 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="container">
 		<ol class="breadcrumb">
 			<li class="breadcrumb-item">
-				<a href="index.html">Home</a>
+				<a href="index.php">Home</a>
 			</li>
-			<li class="breadcrumb-item active" aria-current="page">About Us</li>
+			<li class="breadcrumb-item active" aria-current="page">Our Services</li>
 		</ol>
 	</div>
 </div>
 <!-- //page details -->
 
-<!-- about -->
-<section class="about py-sm-5 py-4">
-	<div class="container py-lg-5 py-sm-3">
-		<div class="row">
-			<div class="col-lg-6 inner-about">
-				
-				<h4 class="mt-md-4 mt-2">Sed ut perspiciatis unde omnis</h4>
-				<h5 class="bottom mt-sm-4 mt-3">voluptatem ut accusa !</h5>
-				<p class="">Sed ut perspiciatis unde omnis iste natus error ipsum voluptatem ut accusa ntium dolor remque laudantium, totam rem
-				aperiam, eaque ipsa quae abse illo quasi sed architecto beatae vitae dicta sut dolor etr explicabo. Morbi a luctus magna, eu rutrum
-				turpis. Sed perspi ciatis unde error ipsum voluptatem.</p>
+<!-- services -->
+<section class="services py-5" id="services">
+	<div class="container py-lg-5 py-3">
+		<div class="row service-grid-grids text-center">
+			<div class="col-lg-4 col-md-6 service-grid service-grid1">
+				<div class="service-icon">
+					<span class="fa fa-puzzle-piece"></span>
+				</div>
+				<h4 class="mt-3">Natus Doloret</h4>
+				<p class="mt-3">Perspiciatis unde omnis iste natus doloret ipsum volupte ut accusal ntium dolor remque laudantium, totam dolor.</p>
 			</div>
-			<div class="col-lg-6 mt-lg-0 mt-4">
-				<img src="images/4.jpg" class="img-fluid" alt="" />
+			<div class="col-lg-4 col-md-6 service-grid service-grid2 mt-md-0 mt-5">
+				<div class="service-icon">
+					<span class="fa fa-cogs"></span>
+				</div>
+				<h4 class="mt-3">Natus Doloret</h4>
+				<p class="mt-3">Perspiciatis unde omnis iste natus doloret ipsum volupte ut accusal ntium dolor remque laudantium, totam dolor.</p>
+			</div>
+			
+			<div class="col-lg-4 col-md-6 service-grid service-grid3 mt-lg-0 mt-5">
+				<div class="service-icon">
+					<span class="fa fa-sliders"></span>
+				</div>
+				<h4 class="mt-3">Natus Doloret</h4>
+				<p class="mt-3">Perspiciatis unde omnis iste natus doloret ipsum volupte ut accusal ntium dolor remque laudantium, totam dolor.</p>
 			</div>
 		</div>
-	</div>
+		<div class="row mt-5">
+			<div class="col-md-6 p-md-0">
+				<div class="bg-image-left">	
+					<h4>Tours & Travels</h4>
+				</div>
+			</div>
+			<div class="col-md-6 p-md-0">
+				<div class="bg-image-right">
+					<h4>Tours & Travels</h4>
+				</div>
+				<div class="row">
+					<div class="col-md-6 pr-md-0">
+						<div class="bg-image-bottom1">
+							<h4>Tours</h4>
+						</div>
+					</div>
+					<div class="col-md-6 pl-md-0">
+						<div class="bg-image-bottom2">
+							<h4>Travels</h4>
+						</div>
+					</div>
+				</div>	
+			</div>	
+		</div>		
+	</div>		
 </section>
-<!-- //about -->
+<!-- //services -->
 
-<!-- discount -->
-<section class="discount-grid text-center">
-	<div class="overlay-all py-5">
-		<div class="container py-md-4">
-			<div class="offer-grid">
-				<h2 class="text-capitalize">Get Flat 20% Offer On Tours</h2>
-				<p class="mt-4">Sed ut perspiciatis unde omnis iste natus error ipsum voluptatem ut accusa ntium dolor remque et laudantium, totam rem
-				aperiam, eaque ipsa quae abse illo quasi sed.</p>
-				<a href="index.html" class="btn"> Read More</a>
-			</div>
-		</div>
-	</div>
-</section>
-<!-- //discount -->
-
-<!-- team -->
-<section class="team py-5" id="team">
-	<div class="container py-md-4">
-		<div class="title-desc text-center">
-			<h3 class="heading text-capitalize mb-md-5 mb-4">our Agents</h3>
-		</div>
-		<div class="row team-grid">
-			<div class="col-lg-3 col-sm-6">
-				<div class="box13">
-					<img src="images/team1.jpg" class="img-fluid img-thumbnail" alt="" />
-					<div class="box-content">
-						<h3 class="title">Williamson</h3>
-						<span class="post">role in detail</span>
-						<ul class="social">
-							<li><a href="#"><span class="fa fa-facebook"></span></a></li>
-							<li><a href="#"><span class="fa fa-twitter"></span></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3 col-sm-6 mt-sm-0 mt-4">
-				<div class="box13">
-					<img src="images/team2.jpg" class="img-fluid img-thumbnail" alt="" />
-					<div class="box-content">
-						<h3 class="title">Kristiana</h3>
-						<span class="post">role in detail</span>
-						<ul class="social">
-							<li><a href="#"><span class="fa fa-facebook"></span></a></li>
-							<li><a href="#"><span class="fa fa-twitter"></span></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3 col-sm-6 mt-lg-0 mt-4">
-				<div class="box13">
-					<img src="images/team3.jpg" class="img-fluid img-thumbnail" alt="" />
-					<div class="box-content">
-						<h3 class="title">Thomson</h3>
-						<span class="post">role in detail</span>
-						<ul class="social">
-							<li><a href="#"><span class="fa fa-facebook"></span></a></li>
-							<li><a href="#"><span class="fa fa-twitter"></span></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3 col-sm-6 mt-lg-0 mt-4">
-				<div class="box13">
-					<img src="images/team4.jpg" class="img-fluid img-thumbnail" alt="" />
-					<div class="box-content">
-						<h3 class="title">Watson</h3>
-						<span class="post">role in detail</span>
-						<ul class="social">
-							<li><a href="#"><span class="fa fa-facebook"></span></a></li>
-							<li><a href="#"><span class="fa fa-twitter"></span></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<!-- //team -->
-
-
+ <!-- stats -->
+    <section class="stats py-5" id="stats">
+        <div class="container py-lg-5 py-md-3">
+            <div class="row stat-grids">
+                <div class="col-lg-6 stats-left">
+                    <h3 class="heading mb-4 text-li">Years in the field</h3>
+                    <p class="mb-3">Integer pulvinar leo id viverra feugiat. Pellentesque libero justo, semper at tempus vel, ultrices in ligula. Nulla sollicit sed.</p>
+                    <h4><span>20+</span> Years of Experience</h4>
+                </div>
+                <div class="col-lg-6 grid1 stats-right mt-lg-0 mt-4 pl-5">
+                    <div class="row">
+                        <div class="col-sm-4 col-6">
+                            <p class="text-li">Happy Customers</p>
+                            <h4 class="text-wh">12k</h4>
+                            <span class="fa fa-users mr-2"></span>
+                        </div>
+                        <div class="col-sm-4 col-6">
+                            <p>Completed Work</p>
+                            <h4>15k</h4>
+                            <span class="fa fa-tasks mr-2"></span>
+                        </div>
+                        <div class="col-sm-4 col-6 mt-sm-0 mt-5">
+                            <p>Total Tours</p>
+                            <h4>25k</h4>
+                            <span class="fa fa-files-o mr-2"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //stats -->
 
 <!-- newsletter -->
 <section class="subscribe-main py-5" id="subscribe">
@@ -242,22 +229,22 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</ul>
 					<ul class="footer-link mt-3">
 						<li>
-							<a href="index.html">Home</a>
+							<a href="index.php">Home</a>
 						</li>
 						<li>
-							<a href="about.html">About Us</a>
+							<a href="about.php">About Us</a>
 						</li>
 						<li>
-							<a href="services.html">Services</a>
+							<a href="services.php">Services</a>
 						</li>
 						<li>
-							<a href="gallery.html">Gallery</a>
+							<a href="gallery.php">Gallery</a>
 						</li>
 						<li>
 							<a href="#Subscribe">Subscribe</a>
 						</li>
 						<li>
-							<a href="contact.html">Contact</a>
+							<a href="contact.php">Contact</a>
 						</li>
 					</ul>
 				</div>

@@ -39,16 +39,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<!-- nav -->
 		<nav class="py-md-4 py-3 d-lg-flex">
 			<div id="logo">
-				<h1> <a href="index.html"><img width="50%" src="images/logo-white.png"></a></h1>
+				<h1> <a href="index.php"><img width="50%" src="images/logo-white.png"></a></h1>
 			</div>
 			<label for="drop" class="toggle"><span class="fa fa-bars"></span></label>
 			<input type="checkbox" id="drop" />
 			<ul class="menu mt-lg-3 ml-auto">
-				<li class="active"><a href="index.html">Home</a></li>
-				<li class=""><a href="about.html">About Us</a></li>
-				<li class=""><a href="services.html">Tour Packages</a></li>
-				<li class=""><a href="gallery.html">Reservation</a></li>
-				<li class="mr-2"><a href="contact.html">Contact</a></li>
+				<li class="active"><a href="index.php">Home</a></li>
+				<li class=""><a href="about.php">About Us</a></li>
+				<li class=""><a href="services.php">Tour Packages</a></li>
+				<li class=""><a href="gallery.php">Reservation</a></li>
+				<li class="mr-2"><a href="contact.php">Contact</a></li>
 			</ul>
 		</nav>
 		<!-- //nav -->
@@ -71,7 +71,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="w3layouts-banner-info">
 								<h3 class="text-wh"> Welcome to <span>Restu Bali Travel</span></h3>
 								<h4 class="text-wh"> Tempat pilihan tour terbaik di bali.</h4>
-								<a href="about.html" class="button-style mt-4">Read More</a>
+								<a href="about.php" class="button-style mt-4">Read More</a>
 								</div>
 						</div>
 					</div>
@@ -84,7 +84,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="w3layouts-banner-info">
 								<h3 class="text-wh"> About Us  <span>Restu Bali Travel</span></h3>
 								<h4 class="text-wh"> Cerita tentang Kami</h4>
-								<a href="about.html" class="button-style mt-4">Read More</a>
+								<a href="about.php" class="button-style mt-4">Read More</a>
 								</div>
 						</div>
 					</div>
@@ -97,7 +97,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="w3layouts-banner-info">
 								<h3 class="text-wh"> Tour Packages  <span>Restu Bali Travel</span></h3>
 								<h4 class="text-wh"> Tentang produk kami</h4>
-								<a href="about.html" class="button-style mt-4">Read More</a>
+								<a href="about.php" class="button-style mt-4">Read More</a>
 								</div>
 						</div>
 					</div>
@@ -110,7 +110,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="w3layouts-banner-info">
 								<h3 class="text-wh"> Reservation  <span>Restu Bali Travel</span></h3>
 								<h4 class="text-wh"> Pesan Jasa kami disini</h4>
-								<a href="about.html" class="button-style mt-4">Read More</a>
+								<a href="about.php" class="button-style mt-4">Read More</a>
 								</div>
 						</div>
 					</div>
@@ -256,7 +256,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
       <p class="mt-lg-5 mt-3">sed do eiusmod tempor incididunt ut Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, eiusmod tempor incididunt
         ut labore et consectetur adipiscing sed do eiusmod tempor incididunt ut Lorem ipsum dolor sit amet Lorem ipsum</p>
       <div class="view-buttn mt-md-4 mt-sm-4 mt-3">
-        <a href="contact.html" class="btn">Contact Us</a>
+        <a href="contact.php" class="btn">Contact Us</a>
       </div>
     </div>
   </section>
@@ -292,7 +292,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="row">
 				<div class="col-md-4 footer-left">
 					<h3>Get In Touch with us</h3>
-				</div>class="py-md-4 py-3 d-lg-flex"
+				</div>
 				<!-- footer nav links -->
 				<div class="col-md-8 footer-nav-wthree my-md-3 mt-3">
 					<ul class="social-icons list-unstyled">
@@ -319,22 +319,22 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</ul>
 					<ul class="footer-link mt-3">
 						<li>
-							<a href="index.html">Home</a>
+							<a href="index.php">Home</a>
 						</li>
 						<li>
-							<a href="about.html">About Us</a>
+							<a href="about.php">About Us</a>
 						</li>
 						<li>
-							<a href="services.html">Services</a>
+							<a href="services.php">Services</a>
 						</li>
 						<li>
-							<a href="gallery.html">Gallery</a>
+							<a href="gallery.php">Gallery</a>
 						</li>
 						<li>
 							<a href="#Subscribe">Subscribe</a>
 						</li>
 						<li>
-							<a href="contact.html">Contact</a>
+							<a href="contact.php">Contact</a>
 						</li>
 					</ul>
 				</div>
