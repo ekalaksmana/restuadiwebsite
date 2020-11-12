@@ -228,7 +228,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         </div>
     </section>
     <!-- //testimonials -->
-<!--we are ready -->
+<!-- we are ready -->
   <section class="banner-image-two py-lg-4 py-md-3 py-sm-3 py-3 text-center">
     <div class="container py-lg-5 py-md-4 py-sm-4 py-3">
       <h2>We Are Ready To Work With You</h2>
