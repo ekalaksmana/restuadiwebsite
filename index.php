@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Home</title>
+<title>Restu Adi Travel | Home Page</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="utf-8">
 <meta name="keywords" content="Commute Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
@@ -232,8 +232,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
   <section class="banner-image-two py-lg-4 py-md-3 py-sm-3 py-3 text-center">
     <div class="container py-lg-5 py-md-4 py-sm-4 py-3">
       <h2>We Are Ready To Work With You</h2>
-      <p class="mt-lg-5 mt-3">sed do eiusmod tempor incididunt ut Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, eiusmod tempor incididunt
-        ut labore et consectetur adipiscing sed do eiusmod tempor incididunt ut Lorem ipsum dolor sit amet Lorem ipsum</p>
+      <!-- <p class="mt-lg-5 mt-3">sed do eiusmod tempor incididunt ut Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, eiusmod tempor incididunt
+        ut labore et consectetur adipiscing sed do eiusmod tempor incididunt ut Lorem ipsum dolor sit amet Lorem ipsum</p> -->
       <div class="view-buttn mt-md-4 mt-sm-4 mt-3">
         <a href="contact.php" class="btn">Contact Us</a>
       </div>

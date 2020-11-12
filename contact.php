@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Commute Travel Category Flat Bootstrap Responsive Web Template | Contact Page :: w3layouts</title>
+<title>Restu Adi Travel | Contact Page </title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="utf-8">
 <meta name="keywords" content="Commute Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
@@ -102,10 +102,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="map p-2">
 	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158857.728106568!2d-0.24168153701090248!3d51.52877184090542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C+UK!5e0!3m2!1sen!2sin!4v1544074523717"></iframe>
 </div>
+<br>
 <!-- map -->
 
 <!-- newsletter -->
-<section class="subscribe-main py-5" id="subscribe">
+<!-- <section class="subscribe-main py-5" id="subscribe">
 	<div class="container py-md-4">
 	<h3 class="heading text-center mb-5">Newsletter</h3>
 		<div class="row pt-lg-5">
@@ -123,7 +124,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
 <!-- //newsletter-->
 
 

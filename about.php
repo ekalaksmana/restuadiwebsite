@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Commute Travel Category Flat Bootstrap Responsive Web Template | About Page :: w3layouts</title>
+<title>Restu Adi Travel | About Page</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="utf-8">
 <meta name="keywords" content="Commute Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
@@ -68,14 +68,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="row">
 			<div class="col-lg-6 inner-about">
 				
-				<h4 class="mt-md-4 mt-2">Sed ut perspiciatis unde omnis</h4>
-				<h5 class="bottom mt-sm-4 mt-3">voluptatem ut accusa !</h5>
-				<p class="">Sed ut perspiciatis unde omnis iste natus error ipsum voluptatem ut accusa ntium dolor remque laudantium, totam rem
-				aperiam, eaque ipsa quae abse illo quasi sed architecto beatae vitae dicta sut dolor etr explicabo. Morbi a luctus magna, eu rutrum
-				turpis. Sed perspi ciatis unde error ipsum voluptatem.</p>
+				<h4 class="mt-md-4 mt-2">Restu Adi Travel</h4>
+				<br>
+				<!-- <h5 class="bottom mt-sm-4 mt-3">Tentang Kami</h5> -->
+				<p class="">Restu Adi Travel merupakan perusahaan jasa di bidang Biro Perjalanan Wisata. Berdiri sejak 24 juni 2015 dan berpusat di Denpasar Selatan, kami melayani pembelian jasa produk paket Tur, tempat yg kami berikan kepada anda merupakan tempat-tempat terbaik yg berada di Bali. Visi kami adalah menjadi Biro Perjalanan Wisata yang terbaik dan menjadi yang utama bagi pihak manapun, Misi kami adalah mengembangkan usaha pariwisata di indonesia, khususnya di Bali, Mendorong terciptanya industri pariwisata yang maju di Indonesia dan Menciptakan SDM di bidang tourism yang berkualitas dan membangun iklim perusahaan yang profesional dan religius. </p>
 			</div>
 			<div class="col-lg-6 mt-lg-0 mt-4">
-				<img src="images/4.jpg" class="img-fluid" alt="" />
+				<img src="images/about-us.jpg" class="img-fluid" alt="" />
 			</div>
 		</div>
 	</div>
@@ -88,8 +87,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container py-md-4">
 			<div class="offer-grid">
 				<h2 class="text-capitalize">Get Flat 20% Offer On Tours</h2>
-				<p class="mt-4">Sed ut perspiciatis unde omnis iste natus error ipsum voluptatem ut accusa ntium dolor remque et laudantium, totam rem
-				aperiam, eaque ipsa quae abse illo quasi sed.</p>
+				<p class="mt-4">Click here to book our Tour Packages</p>
 				<a href="index.php" class="btn"> Read More</a>
 			</div>
 		</div>

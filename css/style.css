@@ -1858,6 +1858,12 @@ ul.social-icons li a span {
     }
 }
 
+@media (min-width: 768px){
+.mt-md-4, .my-md-4 {
+    margin-top: 1rem !important;
+}
+}
+
 @media(max-width:736px) {
     .w3layouts-banner-info h3 {
         font-size: 2.5em;
