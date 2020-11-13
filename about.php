@@ -1,9 +1,3 @@
-<!--
-author: W3layouts
-author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -82,7 +76,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- //about -->
 
 <!-- discount -->
-<section class="discount-grid text-center">
+<section id="discount-seksi" class="discount-grid text-center">
 	<div class="overlay-all py-5">
 		<div class="container py-md-4">
 			<div class="offer-grid">

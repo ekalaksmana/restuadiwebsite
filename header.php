@@ -12,7 +12,7 @@
 				<li class="active"><a href="index.php">Home</a></li>
 				<li class=""><a href="about.php">About Us</a></li>
 				<li class=""><a href="tour.php">Tour Packages</a></li>
-				<li class=""><a href="#">Reservation</a></li>
+				<li class=""><a href="reservation.php">Reservation</a></li>
 				<li class="mr-2"><a href="contact.php">Contact</a></li>
 			</ul>
 		</nav>

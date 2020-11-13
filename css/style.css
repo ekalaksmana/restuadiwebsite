@@ -1,9 +1,7 @@
-/*--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
+/* boosttrap extention */
+
+
+/* end boostrap extention */
 html,
 body {
     margin: 0;
@@ -941,13 +939,9 @@ li.breadcrumb-item a {
 }
 
 .discount-grid {
-    background: url(../images/tourist.jpg) no-repeat ;
+    background: url(../images/kutabeach.jpg) no-repeat;
     background-size: cover;
     background-position: 50% 60%;
-   
-  
-     
-
 }
 
 .discount-grid p {
@@ -1871,10 +1865,12 @@ ul.social-icons li a span {
     }
 }
 
-@media (min-width: 768px){
-.mt-md-4, .my-md-4 {
-    margin-top: 1rem !important;
-}
+@media (min-width: 768px) {
+
+    .mt-md-4,
+    .my-md-4 {
+        margin-top: 1rem !important;
+    }
 }
 
 @media(max-width:736px) {
