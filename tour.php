@@ -108,8 +108,142 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>	
 		</div>		
 	</div>		
+
+	<div class="container py-lg-5 py-3">
+		<div class="row service-grid-grids">
+			<div class="col-lg-12 col-md-6">
+				<p>Selain transfer pulau umum, Marlin Lembongan Cruiser sekarang menawarkan 3 pilihan Paket Hari yang berbeda di Pulau Lembongan. Bergabunglah dengan staf lokal kami yang berpengalaman untuk menemukan lebih banyak pantai dan kehidupan laut di sekitar pulau yang indah ini. Marlin Lembongan Cruiser sekarang dapat membawa Anda lebih jauh ke pedalaman untuk menjelajahi Pulau Lembongan itu sendiri, dan semua budaya dan keindahan yang dimilikinya.</p>
+				<br><br>
+				<h5>Package 1</h5>
+				<br>
+				<table class="table table-bordered">
+					<tr>
+						<th>Harga Perorang (minimum 2 orang)</th>
+						<th>IDR</th>
+					</tr>
+
+					<tr>
+						<td>Dewasa</td>
+						<td>Rp 1.050.000</td>
+					</tr>
+
+					<tr>
+						<td>Anak - anak (3-12 tahun)</td>
+						<td>Rp 850.000</td>
+					</tr>
+				</table>
+				<br>
+				<h6>Including :</h6>
+				<br>
+				<ul class="list-group">
+					<li class="list-group-item">Dari hotel pergi ke: (Sanur, Kuta, Seminyak, Central Ubud, Lembongan Island)</li>
+					<li class="list-group-item">Pergi ke fast boat dari Sanur  dan kembali ke Lembongan</li>
+					<li class="list-group-item">Snorkeling 1 jam 30 menit</li>
+					<li class="list-group-item">Lunch</li>
+					<li class="list-group-item">Tour Village ( Dream Beach, Devil Tear’s, Yellow Bridges)</li>
+				</ul>
+
+				<br><br>
+				<h5>Package 2</h5>
+				<br>
+				<table class="table table-bordered">
+					<tr>
+						<th>Price Per Person(minimum 2 persons)</th>
+						<th>IDR</th>
+					</tr>
+
+					<tr>
+						<td>Adult</td>
+						<td>Rp 900.000</td>
+					</tr>
+
+					<tr>
+						<td>Child (3-12 Years Old)</td>
+						<td>Rp 850.000</td>
+					</tr>
+				</table>
+				<br>
+				<h6>Including :</h6>
+				<br>
+				<ul class="list-group">
+					<li class="list-group-item">Dari hotel pergi ke: (Sanur, Kuta, Seminyak, Central Ubud, Lembongan Island)</li>
+					<li class="list-group-item">Pergi ke fast boat dari Sanur  dan kembali ke Lembongan</li>
+					<li class="list-group-item">Snorkeling 1 jam 30 menit</li>
+					<li class="list-group-item">Lunch</li>
+					
+				</ul>
+
+				<br><br>
+				<h5>Package 3</h5>
+				<br>
+				<table class="table table-bordered">
+					<tr>
+						<th>Harga per orang (minimum 2 orang)</th>
+						<th>IDR</th>
+					</tr>
+
+					<tr>
+						<td>Dewasa</td>
+						<td>Rp 900.000</td>
+					</tr>
+
+					<tr>
+						<td>Anak Anak (3-12 tahun)</td>
+						<td>Rp 750.000</td>
+					</tr>
+				</table>
+				<br>
+				<h6>Including :</h6>
+				<br>
+				<ul class="list-group">
+					<li class="list-group-item">Dari hotel pergi ke: (Sanur, Kuta, Seminyak, Central Ubud, Lembongan Island)</li>
+					<li class="list-group-item">Pergi ke fast boat dari Sanur  dan kembali ke Lembongan</li>
+					<li class="list-group-item">Village Tour: Yellow Bridges, Devil Tear’s, Dream Beach</li>
+					<li class="list-group-item">Mangrove Forest Tour</li>
+					<li class="list-group-item">Lunch</li>
+				</ul>
+
+				<br><br>
+				<h5>Schedule & Pick time :</h5>
+				<br>
+				<table class="table table-bordered">
+					<tr>
+						<th>Area</th>
+						<th>Pick - up</th>
+						<th>Return</th>
+					</tr>
+
+					<tr>
+						<td>Sanur</td>
+						<td>09.30 Am</td>
+						<td>03.00 Pm</td>
+					</tr>
+
+					<tr>
+						<td>Kuta / Seminyak / Ubud</td>
+						<td>08.45 Am</td>
+						<td>03.00 Pm</td>
+					</tr>
+
+					<tr>
+						<td>Jimbaran / Nusa dua / Uluwatu</td>
+						<td>09.30 Am</td>
+						<td>03.00 Pm</td>
+					</tr>
+				</table>
+				<br><br>
+				<h6>Harga tambahan :</h6>
+				<td>Extra Charge Rp. 100.000/ car for: Nusa Dua, Uluwatu, Pecatu, Canggu areas</td>
+
+			</div>
+		</div>
+		
+	</div>
+	
 </section>
 <!-- //services -->
+
+
 
  <!-- stats -->
     <section class="stats py-5" id="stats">
