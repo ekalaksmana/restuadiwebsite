@@ -937,11 +937,17 @@ li.breadcrumb-item a {
 /*-- discount section --*/
 .overlay-all {
     background: rgba(0, 0, 0, 0.6);
+
 }
 
 .discount-grid {
-    background: url(../images/banner2.jpg) no-repeat center;
+    background: url(../images/tourist.jpg) no-repeat ;
     background-size: cover;
+    background-position: 50% 60%;
+   
+  
+     
+
 }
 
 .discount-grid p {
@@ -1863,6 +1869,12 @@ ul.social-icons li a span {
     .map iframe {
         height: 260px;
     }
+}
+
+@media (min-width: 768px){
+.mt-md-4, .my-md-4 {
+    margin-top: 1rem !important;
+}
 }
 
 @media(max-width:736px) {
