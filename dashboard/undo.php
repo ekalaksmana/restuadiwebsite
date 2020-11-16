@@ -54,10 +54,12 @@ if (mysqli_affected_rows($conn) > 0) {
     echo "<script>
                 alert('Data Berhasil Di Undo');
         </script>";
-    header("http://restuadiwebsite.pekenkode.com/dashboard/request-reservasi.php");
+    header("location: request-reservasi.php");
+    exit;
 } else {
     echo "<script>
                 alert('Data gagal Di Undo');
         </script>";
-    header("http://restuadiwebsite.pekenkode.com/dashboard/request-reservasi.php");
+    header("location: request-reservasi.php");
+    exit;
 }
