@@ -1,3 +1,9 @@
+<?php
+require 'function.php';
+
+$reservasi = query("SELECT * FROM `table_booking` ORDER BY id DESC;");
+
+?>
 <!doctype html>
 <html lang="en">
 
@@ -5,7 +11,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Language" content="en">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Analytics Dashboard - This is an example dashboard created using build-in elements and components.</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
     <meta name="description" content="This is an example dashboard created using build-in elements and components.">
@@ -20,7 +26,9 @@
     =========================================================
     * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
     -->
-<link href="./main.css" rel="stylesheet"></head>
+    <link href="./main.css" rel="stylesheet">
+</head>
+
 <body>
     <div class="app-container app-theme-white body-tabs-shadow fixed-sidebar fixed-header">
         <div class="app-header header-shadow">
@@ -53,7 +61,8 @@
                         </span>
                     </button>
                 </span>
-            </div>    <div class="app-header__content">
+            </div>
+            <div class="app-header__content">
                 <div class="app-header-left">
                     <div class="search-wrapper">
                         <div class="input-holder">
@@ -62,12 +71,13 @@
                         </div>
                         <button class="close"></button>
                     </div>
-              </div>
+                </div>
                 <div class="app-header-right">
-                    <?php include "widget-akun.php"?>    
+                    <?php include "widget-akun.php" ?>
                 </div>
             </div>
-        </div>        <div class="ui-theme-settings">
+        </div>
+        <div class="ui-theme-settings">
             <button type="button" id="TooltipDemo" class="btn-open-options btn btn-warning">
                 <i class="fa fa-cog fa-w-16 fa-spin fa-2x"></i>
             </button>
@@ -345,62 +355,65 @@
                     </div>
                 </div>
             </div>
-        </div>        <div class="app-main">
-                <div class="app-sidebar sidebar-shadow">
-                    <div class="app-header__logo">
-                        <div class="logo-src"></div>
-                        <div class="header__pane ml-auto">
-                            <div>
-                                <button type="button" class="hamburger close-sidebar-btn hamburger--elastic" data-class="closed-sidebar">
-                                    <span class="hamburger-box">
-                                        <span class="hamburger-inner"></span>
-                                    </span>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="app-header__mobile-menu">
+        </div>
+        <div class="app-main">
+            <div class="app-sidebar sidebar-shadow">
+                <div class="app-header__logo">
+                    <div class="logo-src"></div>
+                    <div class="header__pane ml-auto">
                         <div>
-                            <button type="button" class="hamburger hamburger--elastic mobile-toggle-nav">
+                            <button type="button" class="hamburger close-sidebar-btn hamburger--elastic" data-class="closed-sidebar">
                                 <span class="hamburger-box">
                                     <span class="hamburger-inner"></span>
                                 </span>
                             </button>
                         </div>
                     </div>
-                    <div class="app-header__menu">
-                        <span>
-                            <button type="button" class="btn-icon btn-icon-only btn btn-primary btn-sm mobile-toggle-header-nav">
-                                <span class="btn-icon-wrapper">
-                                    <i class="fa fa-ellipsis-v fa-w-6"></i>
-                                </span>
-                            </button>
-                        </span>
-                    </div>    <div class="scrollbar-sidebar">
-                        <div class="app-sidebar__inner">
-                            <!-- sidebar menu -->
-                            <?php include "sidebar-menu.php" ?>
-                        </div>
+                </div>
+                <div class="app-header__mobile-menu">
+                    <div>
+                        <button type="button" class="hamburger hamburger--elastic mobile-toggle-nav">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
                     </div>
-                </div>    <div class="app-main__outer">
-                    <div class="app-main__inner">
-                        <div class="app-page-title">
-                            <div class="page-title-wrapper">
-                                <div class="page-title-heading">
-                                    <div class="page-title-icon">
-                                        <i class="pe-7s-car icon-gradient bg-mean-fruit">
-                                        </i>
-                                    </div>
-                                    <div>Restu Adi Travel Dashboard
-                                        <div class="page-title-subheading">Dashboard untuk melihat seluruh data pesenan booking reservasi dari customers website.
-                                        </div>
+                </div>
+                <div class="app-header__menu">
+                    <span>
+                        <button type="button" class="btn-icon btn-icon-only btn btn-primary btn-sm mobile-toggle-header-nav">
+                            <span class="btn-icon-wrapper">
+                                <i class="fa fa-ellipsis-v fa-w-6"></i>
+                            </span>
+                        </button>
+                    </span>
+                </div>
+                <div class="scrollbar-sidebar">
+                    <div class="app-sidebar__inner">
+                        <!-- sidebar menu -->
+                        <?php include "sidebar-menu.php" ?>
+                    </div>
+                </div>
+            </div>
+            <div class="app-main__outer">
+                <div class="app-main__inner">
+                    <div class="app-page-title">
+                        <div class="page-title-wrapper">
+                            <div class="page-title-heading">
+                                <div class="page-title-icon">
+                                    <i class="pe-7s-car icon-gradient bg-mean-fruit">
+                                    </i>
+                                </div>
+                                <div>Restu Adi Travel Dashboard
+                                    <div class="page-title-subheading">Dashboard untuk melihat seluruh data pesenan booking reservasi dari customers website.
                                     </div>
                                 </div>
-                                <div class="page-title-actions">
-                                    <button type="button" data-toggle="tooltip" title="Example Tooltip" data-placement="bottom" class="btn-shadow mr-3 btn btn-dark">
-                                        <i class="fa fa-star"></i>
-                                    </button>
-                                    <!-- <div class="d-inline-block dropdown">
+                            </div>
+                            <div class="page-title-actions">
+                                <button type="button" data-toggle="tooltip" title="Example Tooltip" data-placement="bottom" class="btn-shadow mr-3 btn btn-dark">
+                                    <i class="fa fa-star"></i>
+                                </button>
+                                <!-- <div class="d-inline-block dropdown">
                                         <button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="btn-shadow dropdown-toggle btn btn-info">
                                             <span class="btn-icon-wrapper pr-2 opacity-7">
                                                 <i class="fa fa-business-time fa-w-20"></i>
@@ -446,193 +459,130 @@
                                             </ul>
                                         </div>
                                     </div> -->
-                                </div>    </div>
-                        </div>            <div class="row">
-                            <div class="col-md-6 col-xl-4">
-                                <div class="card mb-3 widget-content bg-midnight-bloom">
-                                    <div class="widget-content-wrapper text-white">
-                                        <div class="widget-content-left">
-                                            <div class="widget-heading">Total Reservation Book</div>
-                                            <div class="widget-subheading">total jumlah book dari users</div>
-                                        </div>
-                                        <div class="widget-content-right">
-                                            <div class="widget-numbers text-white"><span>1896</span></div>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
-                            <div class="col-md-6 col-xl-4">
-                                <div class="card mb-3 widget-content bg-arielle-smile">
-                                    <div class="widget-content-wrapper text-white">
-                                        <div class="widget-content-left">
-                                            <div class="widget-heading">Clients Confirm</div>
-                                            <div class="widget-subheading">Total Clients konfirmasi booking</div>
-                                        </div>
-                                        <div class="widget-content-right">
-                                            <div class="widget-numbers text-white"><span>568</span></div>
-                                        </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-xl-4">
+                            <div class="card mb-3 widget-content bg-midnight-bloom">
+                                <div class="widget-content-wrapper text-white">
+                                    <div class="widget-content-left">
+                                        <div class="widget-heading">Total Reservation Book</div>
+                                        <div class="widget-subheading">total jumlah book dari users</div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-xl-4">
-                                <div class="card mb-3 widget-content bg-grow-early">
-                                    <div class="widget-content-wrapper text-white">
-                                        <div class="widget-content-left">
-                                            <div class="widget-heading">Total Canceled</div>
-                                            <div class="widget-subheading">Booking yang di cancel</div>
-                                        </div>
-                                        <div class="widget-content-right">
-                                            <div class="widget-numbers text-white"><span>46</span></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="d-xl-none d-lg-block col-md-6 col-xl-4">
-                                <div class="card mb-3 widget-content bg-premium-dark">
-                                    <div class="widget-content-wrapper text-white">
-                                        <div class="widget-content-left">
-                                            <div class="widget-heading">Products Sold</div>
-                                            <div class="widget-subheading">Revenue streams</div>
-                                        </div>
-                                        <div class="widget-content-right">
-                                            <div class="widget-numbers text-warning"><span>$14M</span></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>                     
-                        
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="main-card mb-3 card">
-                                    <div class="card-header">Customers Request
-                                        
-                                    </div>
-                                    <div class="table-responsive">
-                                        <table class="align-middle mb-0 table table-borderless table-striped table-hover">
-                                            <thead>
-                                            <tr>
-                                                <th class="text-center">#</th>
-                                                <th>Name</th>
-                                                <th class="text-center">City</th>
-                                                <th class="text-center">Status</th>
-                                                <th class="text-center">Actions</th>
-                                            </tr>
-                                            </thead>
-                                            <tbody>
-                                            <tr>
-                                                <td class="text-center text-muted">#345</td>
-                                                <td>
-                                                    <div class="widget-content p-0">
-                                                        <div class="widget-content-wrapper">
-                                                            <div class="widget-content-left mr-3">
-                                                                <div class="widget-content-left">
-                                                                    <img width="40" class="rounded-circle" src="assets/images/avatars/4.jpg" alt="">
-                                                                </div>
-                                                            </div>
-                                                            <div class="widget-content-left flex2">
-                                                                <div class="widget-heading">John Doe</div>
-                                                                <div class="widget-subheading opacity-7">Web Developer</div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <td class="text-center">Madrid</td>
-                                                <td class="text-center">
-                                                    <div class="badge badge-warning">Request Booked</div>
-                                                </td>
-                                                <td class="text-center">
-                                                    <button type="button" id="PopoverCustomT-1" class="btn btn-primary btn-sm">Details</button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td class="text-center text-muted">#347</td>
-                                                <td>
-                                                    <div class="widget-content p-0">
-                                                        <div class="widget-content-wrapper">
-                                                            <div class="widget-content-left mr-3">
-                                                                <div class="widget-content-left">
-                                                                    <img width="40" class="rounded-circle" src="assets/images/avatars/3.jpg" alt="">
-                                                                </div>
-                                                            </div>
-                                                            <div class="widget-content-left flex2">
-                                                                <div class="widget-heading">Ruben Tillman</div>
-                                                                <div class="widget-subheading opacity-7">Etiam sit amet orci eget</div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <td class="text-center">Berlin</td>
-                                                <td class="text-center">
-                                                    <div class="badge badge-success">Confirm Request</div>
-                                                </td>
-                                                <td class="text-center">
-                                                    <button type="button" id="PopoverCustomT-2" class="btn btn-primary btn-sm">Details</button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td class="text-center text-muted">#321</td>
-                                                <td>
-                                                    <div class="widget-content p-0">
-                                                        <div class="widget-content-wrapper">
-                                                            <div class="widget-content-left mr-3">
-                                                                <div class="widget-content-left">
-                                                                    <img width="40" class="rounded-circle" src="assets/images/avatars/2.jpg" alt="">
-                                                                </div>
-                                                            </div>
-                                                            <div class="widget-content-left flex2">
-                                                                <div class="widget-heading">Elliot Huber</div>
-                                                                <div class="widget-subheading opacity-7">Lorem ipsum dolor sic</div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <td class="text-center">London</td>
-                                                <td class="text-center">
-                                                    <div class="badge badge-danger">Cancel Booked</div>
-                                                </td>
-                                                <td class="text-center">
-                                                    <button type="button" id="PopoverCustomT-3" class="btn btn-primary btn-sm">Details</button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td class="text-center text-muted">#55</td>
-                                                <td>
-                                                    <div class="widget-content p-0">
-                                                        <div class="widget-content-wrapper">
-                                                            <div class="widget-content-left mr-3">
-                                                                <div class="widget-content-left">
-                                                                    <img width="40" class="rounded-circle" src="assets/images/avatars/1.jpg" alt=""></div>
-                                                            </div>
-                                                            <div class="widget-content-left flex2">
-                                                                <div class="widget-heading">Vinnie Wagstaff</div>
-                                                                <div class="widget-subheading opacity-7">UI Designer</div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <td class="text-center">Amsterdam</td>
-                                                <td class="text-center">
-                                                    <div class="badge badge-info">Done Reservation</div>
-                                                </td>
-                                                <td class="text-center">
-                                                    <button type="button" id="PopoverCustomT-4" class="btn btn-primary btn-sm">Details</button>
-                                                </td>
-                                            </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                    <div class="d-block text-center card-footer">
-                                        
+                                    <div class="widget-content-right">
+                                        <div class="widget-numbers text-white"><span>1896</span></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        
+                        <div class="col-md-6 col-xl-4">
+                            <div class="card mb-3 widget-content bg-arielle-smile">
+                                <div class="widget-content-wrapper text-white">
+                                    <div class="widget-content-left">
+                                        <div class="widget-heading">Clients Confirm</div>
+                                        <div class="widget-subheading">Total Clients konfirmasi booking</div>
+                                    </div>
+                                    <div class="widget-content-right">
+                                        <div class="widget-numbers text-white"><span>568</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xl-4">
+                            <div class="card mb-3 widget-content bg-grow-early">
+                                <div class="widget-content-wrapper text-white">
+                                    <div class="widget-content-left">
+                                        <div class="widget-heading">Total Canceled</div>
+                                        <div class="widget-subheading">Booking yang di cancel</div>
+                                    </div>
+                                    <div class="widget-content-right">
+                                        <div class="widget-numbers text-white"><span>46</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-xl-none d-lg-block col-md-6 col-xl-4">
+                            <div class="card mb-3 widget-content bg-premium-dark">
+                                <div class="widget-content-wrapper text-white">
+                                    <div class="widget-content-left">
+                                        <div class="widget-heading">Products Sold</div>
+                                        <div class="widget-subheading">Revenue streams</div>
+                                    </div>
+                                    <div class="widget-content-right">
+                                        <div class="widget-numbers text-warning"><span>$14M</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="main-card mb-3 card">
+                                <div class="card-header">Customers Request
+
+                                </div>
+                                <div class="table-responsive">
+                                    <table class="align-middle mb-0 table table-borderless table-striped table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th class="text-center">#</th>
+                                                <th>Nama</th>
+                                                <th class="text-center">Kota</th>
+                                                <th class="text-center">Status</th>
+                                                <th class="text-center">Actions</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <?php
+                                            $i = 1;
+                                            foreach ($reservasi as $data_request) : ?>
+                                                <tr>
+                                                    <td class="text-center text-muted"><?= $i; ?></td>
+                                                    <td>
+                                                        <div class="widget-content p-0">
+                                                            <div class="widget-content-wrapper">
+                                                                <div class="widget-content-left mr-3">
+                                                                    <div class="widget-content-left">
+                                                                        <img width="40" class="rounded-circle" src="assets/images/avatars/4.jpg" alt="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="widget-content-left flex2">
+                                                                    <div class="widget-heading"><?= $data_request['nama-depan'] . " " . $data_request['nama-belakang'];  ?></div>
+                                                                    <div class="widget-subheading opacity-7"><?= $data_request["depature-from"]; ?></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="text-center"><?= $data_request["kota"]; ?></td>
+                                                    <td class="text-center">
+                                                        <button class="btn btn-success"><?= $data_request['status_book']; ?></button>
+                                                    </td>
+                                                    <td class="text-center">
+                                                        <button type="button" id="PopoverCustomT-1" class="btn btn-primary btn-sm">Details</button>
+                                                    </td>
+                                                </tr>
+                                            <?php
+                                                $i++;
+                                            endforeach; ?>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="d-block text-center card-footer">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
-                <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+            </div>
+            <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
         </div>
     </div>
-<script type="text/javascript" src="./assets/scripts/main.js"></script></body>
+    <script type="text/javascript" src="./assets/scripts/main.js"></script>
+</body>
+
 </html>
