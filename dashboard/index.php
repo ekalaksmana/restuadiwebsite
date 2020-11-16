@@ -549,8 +549,8 @@ $reservasi = query("SELECT * FROM `table_booking` ORDER BY id DESC;");
                                                                     </div>
                                                                 </div>
                                                                 <div class="widget-content-left flex2">
-                                                                    <div class="widget-heading"><?= $data_request['nama-depan'] . " " . $data_request['nama-belakang'];  ?></div>
-                                                                    <div class="widget-subheading opacity-7"><?= $data_request["depature-from"]; ?></div>
+                                                                    <div class="widget-heading"><?= $data_request['nama_depan'] . " " . $data_request['nama_belakang'];  ?></div>
+                                                                    <div class="widget-subheading opacity-7"><?= $data_request["depature_from"]; ?></div>
                                                                 </div>
                                                             </div>
                                                         </div>

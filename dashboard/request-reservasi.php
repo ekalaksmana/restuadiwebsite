@@ -453,15 +453,15 @@ $reservasi = query("SELECT * FROM `table_booking` WHERE `status_book`= 'requeste
                                     foreach ($reservasi as $data_request) : ?>
                                         <tr>
                                             <td><?= $i; ?></td>
-                                            <td><?= $data_request["nama-depan"]; ?></td>
-                                            <td><?= $data_request["nama-belakang"]; ?></td>
+                                            <td><?= $data_request["nama_depan"]; ?></td>
+                                            <td><?= $data_request["nama_belakang"]; ?></td>
                                             <td><?= $data_request["kota"]; ?></td>
-                                            <td><?= $data_request["service-select"]; ?></td>
-                                            <td><?= $data_request["trip-method"]; ?></td>
-                                            <td><?= $data_request["depature-date"];  ?></td>
-                                            <td><?= $data_request["return-date"];  ?></td>
-                                            <td><?= $data_request["depature-from"];  ?></td>
-                                            <td><?= $data_request["pickup-information"]; ?></td>
+                                            <td><?= $data_request["service_select"]; ?></td>
+                                            <td><?= $data_request["trip_method"]; ?></td>
+                                            <td><?= $data_request["depature_date"];  ?></td>
+                                            <td><?= $data_request["return_date"];  ?></td>
+                                            <td><?= $data_request["depature_from"];  ?></td>
+                                            <td><?= $data_request["pickup_information"]; ?></td>
                                             <td>
                                                 <button type="button" class="btn mr-2 mb-2 btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">modal</button>
                                             </td>

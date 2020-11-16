@@ -14,16 +14,16 @@ html {
     scroll-behavior: smooth;
 }
 
-#button_submit{
+#button_submit {
     padding: 13px 30px;
-    color:  white;
+    color: white;
     font-size: 15px;
     font-weight: 400;
     text-transform: capitalize;
     letter-spacing: 2px;
     display: inline-block;
     border: 1px solid black;
-    background:#e5001b;
+    background: #e5001b;
 
 }
 
