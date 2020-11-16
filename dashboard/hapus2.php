@@ -10,9 +10,10 @@ if (hapus($id) > 0) {
                 alert('Customers Pulang Dengan Selamat!!!');
                 
         </script>";
+        header("http://restuadiwebsite.pekenkode.com/dashboard/confirm-reservasi.php");
 } else {
         echo "<script>
                 alert('Customers Pulang Dengan %#@$%!!!!');
-                document.location.href = 'confirm-reservasi.php';
         </script>";
+        header("http://restuadiwebsite.pekenkode.com/dashboard/confirm-reservasi.php");
 }

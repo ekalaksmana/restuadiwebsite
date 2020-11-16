@@ -55,9 +55,10 @@ if (mysqli_affected_rows($conn) > 0) {
                 alert('Data Berhasil ditolak');
                 
         </script>";
+    header("http://restuadiwebsite.pekenkode.com/dashboard/cancel-booked.php");
 } else {
     echo "<script>
                 alert('Data gagal ditolak');
-                document.location.href = 'request-reservasi.php';
         </script>";
+    header("http://restuadiwebsite.pekenkode.com/dashboard/cancel-booked.php");
 }
