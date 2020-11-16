@@ -451,9 +451,12 @@ $reservasi = query("SELECT * FROM `table_booking` WHERE `status_book`= 'canceled
                                             <td><?= $data_request["depature_from"];  ?></td>
                                             <td><?= $data_request["pickup_information"]; ?></td>
                                             <td>
-                                                <button type="button" class="btn mr-2 mb-2 btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">modal</button>
+                                                <a href="undo.php?id=<?= $data_request['id']; ?>">
+                                                    <button type="button" class="btn mr-2 mb-2 btn-primary">Undo</button></a>
                                             </td>
-                                            <td><button class="mb-2 mr-2 btn btn-danger">Tolak</button></td>
+                                            <td>
+                                                <a href="hapus.php?id=<?= $data_request['id']; ?>">
+                                                    <button class="mb-2 mr-2 btn btn-danger">Delete</button></a></td>
                                         </tr>
                                     <?php
                                         $i++;
