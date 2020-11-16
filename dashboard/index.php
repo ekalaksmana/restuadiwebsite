@@ -33,7 +33,7 @@ $reservasi = query("SELECT * FROM `table_booking` ORDER BY id DESC;");
     <div class="app-container app-theme-white body-tabs-shadow fixed-sidebar fixed-header">
         <div class="app-header header-shadow">
             <div class="app-header__logo">
-                <div class="logo-src"></div>
+                <div class="logo-src">Eka Laksmana</div>
                 <div class="header__pane ml-auto">
                     <div>
                         <button type="button" class="hamburger close-sidebar-btn hamburger--elastic" data-class="closed-sidebar">
@@ -560,7 +560,8 @@ $reservasi = query("SELECT * FROM `table_booking` ORDER BY id DESC;");
                                                         <button class="btn btn-success"><?= $data_request['status_book']; ?></button>
                                                     </td>
                                                     <td class="text-center">
-                                                        <button type="button" id="PopoverCustomT-1" class="btn btn-primary btn-sm">Details</button>
+                                                        <a href="">
+                                                            <button type="button" id="PopoverCustomT-1" class="btn btn-primary btn-sm">Details</button></a>
                                                     </td>
                                                 </tr>
                                             <?php

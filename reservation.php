@@ -32,6 +32,20 @@ if (isset($_POST["submit"])) {
         )";
 
     mysqli_query($conn, $query);
+
+    if (mysqli_affected_rows($conn) > 0) {
+        echo "<script>
+                alert('Data Berhasil Dikirim ke ADMIN!');
+                alert('Tunggu admin mengontak melalui NO WA atau email');
+                document.location.href = 'services.php';
+        </script>";
+    } else {
+        echo "<script>
+                alert('Data Gagal Dikirim ke ADMIN!');
+                alert('Silahkan coba lagi & pastikan mengisi data dengan benar');
+                document.location.href = 'reservation.php';
+        </script>";
+    }
 }
 ?>
 
