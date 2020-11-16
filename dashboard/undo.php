@@ -53,7 +53,7 @@ mysqli_query($conn, $query_update);
 if (mysqli_affected_rows($conn) > 0) {
     echo "<script>
                 alert('Data Berhasil Di Undo');
-                document.location.href = 'request-reservasi.php';
+                
         </script>";
 } else {
     echo "<script>
