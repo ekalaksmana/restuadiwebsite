@@ -1,7 +1,7 @@
 <?php
 
 // koneksi database
-$conn = mysqli_connect("localhost", "root", "root", "restu-adi-db");
+$conn = mysqli_connect("localhost", "u9419554_restu-adi-web ", "restuadiweb", "u9419554_restu-adi-db");
 
 // Function query
 function query($query)
