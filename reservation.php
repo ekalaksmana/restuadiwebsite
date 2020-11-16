@@ -179,12 +179,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <div class="row">
                     <div class="col">
                         <label for="total-adult">Total Adult <span style="color: red;">*</span></label>
-                        <input type="number" id="total-adult" class="form-control" placeholder="Your city">
+                        <input type="number" id="total-adult" class="form-control" placeholder="Pax">
                     </div>
 
                     <div class="col">
                         <label for="total-child">Total Childern</label>
-                        <input type="number" class="form-control" id="total-child" placeholder="Your country">
+                        <input type="number" class="form-control" id="total-child" placeholder="Pax">
                     </div>
                 </div>
                 <br>
