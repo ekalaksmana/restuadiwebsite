@@ -1,7 +1,6 @@
-<?php 
+<?php
 // isi nama host, username mysql, dan password mysql anda
-$host = mysqli_connect("localhost","root","","restu_adi_travel");
-// if($host){
+$connect = mysqli_connect("localhost", "root", "root", "restu-adi-db");
+// if($connect){
 //     echo 'success';
 // } else echo 'failed';
-?>
