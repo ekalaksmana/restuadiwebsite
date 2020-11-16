@@ -1,3 +1,11 @@
+<?php
+require "function.php";
+
+$reservasi = query("SELECT * FROM `table_booking` WHERE `status_book`= 'requested'");
+
+
+?>
+
 <!doctype html>
 <html lang="en">
 
@@ -417,6 +425,7 @@
                         </div>
                     </div>
 
+
                     <!-- Body -->
                     <div class="main-card mb-3 card">
                         <div class="card-body">
@@ -439,22 +448,28 @@
                                 </thead>
                                 <tbody align="center">
 
-                                    <tr>
-                                        <td>1</td>
-                                        <td>Eka</td>
-                                        <td>Laksmana</td>
-                                        <td>Denpasar</td>
-                                        <td>Package</td>
-                                        <td>Package</td>
-                                        <td>13,Jan 2001</td>
-                                        <td>15,jan 2001</td>
-                                        <td>Sanur to Lembongan - 09:AM</td>
-                                        <td>Villa</td>
-                                        <td>
-                                            <button class="mb-2 mr-2 btn btn-primary">Check</button>
-                                        </td>
-                                        <td><button class="mb-2 mr-2 btn btn-danger">Cancel</button></td>
-                                    </tr>
+                                    <?php
+                                    $i = 1;
+                                    foreach ($reservasi as $data_request) : ?>
+                                        <tr>
+                                            <td><?= $i; ?></td>
+                                            <td><?= $data_request["nama-depan"]; ?></td>
+                                            <td><?= $data_request["nama-belakang"]; ?></td>
+                                            <td><?= $data_request["kota"]; ?></td>
+                                            <td><?= $data_request["service-select"]; ?></td>
+                                            <td><?= $data_request["trip-method"]; ?></td>
+                                            <td><?= $data_request["depature-date"];  ?></td>
+                                            <td><?= $data_request["return-date"];  ?></td>
+                                            <td><?= $data_request["depature-from"];  ?></td>
+                                            <td><?= $data_request["pickup-information"]; ?></td>
+                                            <td>
+                                                <button type="button" class="btn mr-2 mb-2 btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">modal</button>
+                                            </td>
+                                            <td><button class="mb-2 mr-2 btn btn-danger">Tolak</button></td>
+                                        </tr>
+                                    <?php
+                                        $i++;
+                                    endforeach; ?>
                                 </tbody>
                             </table>
                         </div>
@@ -464,6 +479,7 @@
 
                 </div>
             </div>
+
             <!-- end header -->
 
             <!-- Data table -->
@@ -477,6 +493,8 @@
             <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
         </div>
     </div>
+
+
     <script type="text/javascript" src="./assets/scripts/main.js"></script>
 </body>
 
