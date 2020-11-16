@@ -436,7 +436,7 @@ li>a:only-child:after {
 }
 
 .banner-top2 {
-    background: url(../images/angel-bilabong.jpg) no-repeat 0px 0px;
+    background: url(../images/slider3.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -445,7 +445,7 @@ li>a:only-child:after {
 }
 
 .banner-top3 {
-    background: url(../images/slider4.jpg) no-repeat center;
+    background: url(../images/sea-slider4.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
