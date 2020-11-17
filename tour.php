@@ -89,18 +89,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="row mt-5">
 			<div class="col-md-6 p-md-0">
 				<div class="bg-image-left">	
-					<h4>Tour Package I</h4>
+					
 				</div>
 			</div>
 
 			<div class="col-md-6 p-md-0">
 				<div class="bg-image-right">
-					<h4>Tour Package II</h4>
+					
 				</div>
 				<div class="row">
 					<div class="col-md-12 pr-md-12">
 						<div class="bg-image-bottom1">
-							<h4>Tour Package III</h4>
+							
 						</div>
 					</div>
 					
@@ -250,9 +250,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <div class="container py-lg-5 py-md-3">
             <div class="row stat-grids">
                 <div class="col-lg-6 stats-left">
-                    <h3 class="heading mb-4 text-li">Jam kerja lapangan</h3>
-                    <p class="mb-3">Restu Bali Travel sudah berpengalaman dan memiliki banyak customers yang berlangganan.</p>
-                    <h4><span>20+</span> Years of Experience</h4>
+                    <h3 class="heading mb-4 text-li">Total Visitor</h3>
+                    <p class="mb-3">Seluruh hitungan pengunjung saat awal dibukanya perusahaan Travel dari Restu Adi.</p>
+                    <h4><span>5+</span> Years of Experience</h4>
                 </div>
                 <div class="col-lg-6 grid1 stats-right mt-lg-0 mt-4 pl-5">
                     <div class="row">
