@@ -33,7 +33,7 @@ $reservasi = query("SELECT * FROM `table_booking` ORDER BY id DESC;");
     <div class="app-container app-theme-white body-tabs-shadow fixed-sidebar fixed-header">
         <div class="app-header header-shadow">
             <div class="app-header__logo">
-                <div class="logo-src">Eka Laksmana</div>
+                <div class="logo-src">RestuAdiTravel</div>
                 <div class="header__pane ml-auto">
                     <div>
                         <button type="button" class="hamburger close-sidebar-btn hamburger--elastic" data-class="closed-sidebar">

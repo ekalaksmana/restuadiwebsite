@@ -9,7 +9,7 @@
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
 
     <script>
-        addEventListener("load", function () {
+        addEventListener("load", function() {
             setTimeout(hideURLbar, 0);
         }, false);
 
@@ -27,18 +27,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <link href="css/css_slider.css" type="text/css" rel="stylesheet" media="all">
 
     <!-- google fonts -->
-    <link
-        href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900"
-        rel="stylesheet">
-    <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i"
-        rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
     <!-- //google fonts -->
 
 </head>
 
 <body>
 
-    <?php include'header.php'; ?>
+    <?php include 'header.php'; ?>
 
     <!-- banner -->
     <section class="banner_w3lspvt" id="home">
@@ -117,7 +114,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
             <!-- services -->
             <div class="fetured-info py-lg-5 py-3">
-                <h3 class="heading text-center mb-lg-5 mb-3"> Our Services </h3>
+                <h3 class="heading text-center mb-lg-5 mb-3"> Our Company </h3>
                 <div class="row fetured-sec mt-lg-5">
 
                     <div class="col-lg-6 serv_bottom">
@@ -276,9 +273,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </section> -->
     <!-- //newsletter -->
 
-<!-- footer -->
-<?php include'footer.php'; ?>
-	
+    <!-- footer -->
+    <?php include 'footer.php'; ?>
+
 </body>
 
 </html>
